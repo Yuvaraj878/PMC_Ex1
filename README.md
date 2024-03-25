@@ -44,9 +44,9 @@ Running The Emulator (emu8086) Intro 8086 Microprocessor Emulator, also known as
 ## Addition  of 8 bit ALP 
 ```
 org 100h
-mov al, 74h
-mov bl, 69h
-add al,bl
+mov al, 74h;
+mov bl, 69h;
+add al,bl;
 hlt 
 ret
 ```
@@ -56,9 +56,9 @@ ret
 ## Subtraction   of 8 bit numbers  ALP 
 ```
 org 100h
-mov al, 84h
-mov bl, 63h
-sub al,bl
+mov al, 84h;
+mov bl, 63h;
+sub al,bl;
 hlt 
 ret
 ```
@@ -68,9 +68,9 @@ ret
 ## Multiplication alp 
 ```
 org 100h
-mov al, 75h
-mov bl, 32h
-mul bl
+mov al, 75h;
+mov bl, 32h;
+mul bl;
 hlt 
 ret
 ```
@@ -80,9 +80,9 @@ ret
 ## Division alp 
 ```
 org 100h
-mov al, 75h
-mov bl, 32h
-div bl
+mov al, 75h;
+mov bl, 32h;
+div bl;
 hlt 
 ret
 ```
@@ -91,11 +91,11 @@ ret
 
 ## OR Operation 
 ```
-org 100H  
-MOV SI,0532H;
-MOV AX,0A32H;
-MOV BX,0B13H;
-OR AX,BX;
+org 100h
+mov al, 32h;
+mov bl, 32h;
+or al,bl;
+hlt 
 ret
 ```
 ## Output 
